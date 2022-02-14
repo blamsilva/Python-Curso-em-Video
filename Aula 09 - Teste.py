@@ -1,0 +1,15 @@
+frase = 'Curso em video Python'
+print(frase)
+print(frase[3])
+print(frase[3:13])
+print(frase[:13])
+print(frase[13:])
+print(frase[::2])
+print(frase.upper().count('O'))
+print(len(frase))
+print(frase.lower().find('video'))
+print(frase.split())
+dividido = frase.split()
+print(dividido[0])
+print(dividido[2][3])
+'''dentro do grupo dividido pegar o item da posição 2 e dizer qual é o caracter na posição 3'''
